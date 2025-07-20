@@ -14,7 +14,7 @@
 }
 
 .project-image {
-    height: 200px;
+    height: 250px;
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     display: flex;
     align-items: center;
@@ -23,6 +23,18 @@
     color: var(--white);
     position: relative;
     overflow: hidden;
+}
+
+.project-screenshot {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: var(--transition-normal);
+}
+
+.project-card:hover .project-screenshot {
+    transform: scale(1.05);
 }
 
 .project-image::before {
@@ -94,6 +106,17 @@
     display: inline-flex;
     align-items: center;
     gap: 0.25rem;
+}
+
+.project-links .btn-outline-secondary {
+    border-color: var(--gray);
+    color: var(--gray);
+}
+
+.project-links .btn-outline-secondary:hover {
+    background: var(--gray);
+    border-color: var(--gray);
+    color: var(--white);
 }
 
 /* Responsive Design */
