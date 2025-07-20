@@ -59,6 +59,11 @@ class PortfolioApp {
             const outsideWorkHtml = await outsideWorkResponse.text();
             document.getElementById('outside-work-component').innerHTML = outsideWorkHtml;
 
+            // Load footer component
+            const footerResponse = await fetch('components/footer/footer.html');
+            const footerHtml = await footerResponse.text();
+            document.getElementById('footer-component').innerHTML = footerHtml;
+
             // Initialize components after loading
             this.initializeComponents();
         } catch (error) {
@@ -117,14 +122,7 @@ class PortfolioApp {
         // Listen for language change events from navigation
         document.addEventListener('languageChanged', (event) => {
             this.currentLanguage = event.detail.language;
-            this.updateLanguage();
         });
-    }
-
-    updateLanguage() {
-        // This method is now handled by the Navigation component
-        // The navigation component will update all translatable elements
-        console.log('Language changed to:', this.currentLanguage);
     }
 
     initScrollAnimations() {

@@ -46,7 +46,5 @@ class Skills {
     }
 }
 
-// Initialize skills section when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new Skills();
-}); 
+// Make Skills class available globally
+window.Skills = Skills; 

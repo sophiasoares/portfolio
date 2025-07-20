@@ -25,7 +25,5 @@ class Projects {
     }
 }
 
-// Initialize projects section when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new Projects();
-}); 
+// Make Projects class available globally
+window.Projects = Projects; 

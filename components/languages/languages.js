@@ -47,7 +47,5 @@ class Languages {
     }
 }
 
-// Initialize languages section when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new Languages();
-}); 
+// Make Languages class available globally
+window.Languages = Languages; 

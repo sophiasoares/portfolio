@@ -25,7 +25,5 @@ class OutsideWork {
     }
 }
 
-// Initialize outside work section when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new OutsideWork();
-}); 
+// Make OutsideWork class available globally
+window.OutsideWork = OutsideWork; 

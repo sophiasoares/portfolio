@@ -69,6 +69,7 @@ const TRANSLATIONS = {
         
         // Languages Section
         'Languages': 'Languages',
+        'languages-subtitle': 'From fluency to basic understanding, here are the languages I work with',
         'Native': 'Native',
         'Fluent': 'Fluent',
         'Intermediate': 'Intermediate ++',
@@ -80,7 +81,7 @@ const TRANSLATIONS = {
         
         // Contact Section
         'Get In Touch': 'Get In Touch',
-        'contact-subtitle': 'Hey, send me a message! I\'m always open to new collaborations, opportunities, and interesting conversations.',
+        'contact-subtitle': 'Hey, send me a message! I\'m always open to new collaborations, opportunities, and interesting conversations',
         'Name': 'Name',
         'Email': 'Email',
         'Subject': 'Subject',
@@ -197,6 +198,7 @@ const TRANSLATIONS = {
         
         // Languages Section
         'Languages': 'Sprachen',
+        'languages-subtitle': 'Von der Muttersprache bis zum Grundverständnis, hier sind die Sprachen, mit denen ich arbeite',
         'Native': 'Muttersprache',
         'Fluent': 'Fließend',
         'Intermediate': 'Mittelstufe ++',
@@ -208,7 +210,7 @@ const TRANSLATIONS = {
         
         // Contact Section
         'Get In Touch': 'Kontakt aufnehmen',
-        'contact-subtitle': 'Hey, schick mir eine Nachricht! Ich bin immer offen für neue Zusammenarbeiten, Möglichkeiten und interessante Gespräche.',
+        'contact-subtitle': 'Hey, schick mir eine Nachricht! Ich bin immer offen für neue Zusammenarbeiten, Möglichkeiten und interessante Gespräche',
         'Name': 'Name',
         'Email': 'E-Mail',
         'Subject': 'Betreff',
@@ -325,6 +327,7 @@ const TRANSLATIONS = {
         
         // Languages Section
         'Languages': 'Idiomas',
+        'languages-subtitle': 'Da fluência ao entendimento básico, aqui estão os idiomas com os quais trabalho',
         'Native': 'Nativo',
         'Fluent': 'Fluente',
         'Intermediate': 'Intermediário ++',
@@ -336,7 +339,7 @@ const TRANSLATIONS = {
         
         // Contact Section
         'Get In Touch': 'Entre em Contato',
-        'contact-subtitle': 'Ei, me envie uma mensagem! Estou sempre aberta a novas colaborações, oportunidades e conversas interessantes.',
+        'contact-subtitle': 'Ei, me envie uma mensagem! Estou sempre aberta a novas colaborações, oportunidades e conversas interessantes',
         'Name': 'Nome',
         'Email': 'E-mail',
         'Subject': 'Assunto',
@@ -356,7 +359,7 @@ const TRANSLATIONS = {
         'Pet Care': 'Cuidado com Pets',
         'pet-care-description': 'Também sou cuidadora de pets! Adoro passar tempo com pets e cuidar deles. Se você precisa de alguém para mimar seus amigos peludos enquanto está fora, eu sou a pessoa certa!',
         'Reading': 'Leitura',
-        'reading-description': 'Explorando novos mundos através de livros e expandindo conhecimento. Seja livros de romance, romances de fantasia ou biografias, sempre carrego um livro (ou meu Kindle) para todos os lugares.',
+        'reading-description': 'Explorando mundos através de livros e expandindo conhecimento. Seja livros de romance, romances de fantasia ou biografias, sempre carrego um livro (ou meu Kindle) para todos os lugares.',
         'Hiking': 'Caminhada',
         'hiking-description': 'Conectando com a natureza e mantendo-me ativa ao ar livre. Adoro que a Alemanha tenha tantas florestas bonitas para explorar. Caminhar por diferentes florestas, cada uma com sua própria atmosfera única, é minha forma de conectar com a natureza e encontrar paz.',
         'Podcast': 'Podcast',

@@ -57,7 +57,5 @@ class About {
     }
 }
 
-// Initialize about section when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new About();
-}); 
+// Make About class available globally
+window.About = About; 

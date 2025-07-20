@@ -41,7 +41,5 @@ class Hero {
     }
 }
 
-// Initialize hero when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new Hero();
-}); 
+// Make Hero class available globally
+window.Hero = Hero; 

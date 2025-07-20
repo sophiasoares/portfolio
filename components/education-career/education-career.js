@@ -25,7 +25,5 @@ class EducationCareer {
     }
 }
 
-// Initialize education career section when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new EducationCareer();
-}); 
+// Make EducationCareer class available globally
+window.EducationCareer = EducationCareer; 

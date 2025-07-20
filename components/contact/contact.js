@@ -141,7 +141,5 @@ class Contact {
     }
 }
 
-// Initialize contact section when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    new Contact();
-}); 
+// Make Contact class available globally
+window.Contact = Contact; 
