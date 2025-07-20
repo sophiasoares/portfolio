@@ -123,6 +123,16 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .hero-section .row {
+        align-items: flex-start !important;
+        min-height: auto !important;
+    }
+    
+    .hero-section {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    
     .hero-title {
         font-size: 2.5rem;
     }
@@ -144,6 +154,17 @@
 }
 
 @media (max-width: 576px) {
+    .hero-section .row {
+        align-items: flex-start !important;
+        min-height: auto !important;
+    }
+    
+    .hero-section {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        min-height: auto;
+    }
+    
     .hero-title {
         font-size: 2rem;
     }
@@ -151,7 +172,7 @@
     .hero-buttons .btn {
         display: block;
         width: 100%;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
         justify-content: center;
         white-space: normal;
         font-size: 0.85rem;
@@ -159,7 +180,12 @@
     }
     
     .hero-image {
-        height: 300px;
-        margin-top: 2rem;
+        height: 200px;
+        margin-top: 0.5rem;
+    }
+    
+    /* Move lightbulb icon to the left on mobile */
+    .floating-card:nth-child(3) {
+        left: 45% !important;
     }
 } 

@@ -149,11 +149,17 @@
         height: 35px;
         font-size: 0.875rem;
     }
+    
+    /* Add spacing between education and career columns */
+    .col-lg-6:first-child {
+        margin-bottom: 1.5rem;
+    }
 }
 
 @media (max-width: 576px) {
     .timeline-card {
         padding: 1rem;
+        margin-bottom: 1.5rem;
     }
     
     .timeline-title {
@@ -166,5 +172,10 @@
     
     .timeline-description {
         font-size: 0.9rem;
+    }
+    
+    /* Add more spacing between education and career columns on mobile */
+    .col-lg-6:first-child {
+        margin-bottom: 1.5rem;
     }
 } 
