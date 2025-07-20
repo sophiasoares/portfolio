@@ -1,0 +1,107 @@
+/* Languages Section Styles */
+.language-card {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+    transition: var(--transition-normal);
+    height: 100%;
+}
+
+.language-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+}
+
+.language-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+    transition: var(--transition-normal);
+}
+
+.flag-emoji {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.language-card:hover .language-icon {
+    transform: scale(1.1);
+}
+
+.language-name {
+    color: var(--dark-gray);
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.language-level {
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.language-progress {
+    height: 6px;
+    background: var(--light-gray);
+    border-radius: var(--border-radius-sm);
+    overflow: hidden;
+    position: relative;
+}
+
+.language-progress .progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-slow);
+    width: 0;
+    position: relative;
+}
+
+.language-progress .progress-bar::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .language-card {
+        padding: 1.5rem;
+    }
+    
+    .flag-emoji {
+        font-size: 3rem;
+    }
+    
+    .language-name {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .language-card {
+        padding: 1.25rem;
+    }
+    
+    .flag-emoji {
+        font-size: 2.5rem;
+    }
+} 
