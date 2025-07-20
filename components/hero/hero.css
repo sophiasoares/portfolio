@@ -180,6 +180,7 @@
     }
     
     .hero-image {
+<<<<<<< HEAD
         height: 200px;
         margin-top: 0.5rem;
     }
@@ -187,5 +188,9 @@
     /* Move lightbulb icon to the left on mobile */
     .floating-card:nth-child(3) {
         left: 45% !important;
+=======
+        height: 250px;
+        margin-top: 1rem;
+>>>>>>> 903c48d2cb51321fa62be8da6dc5e955eccd0530
     }
 } 

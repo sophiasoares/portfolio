@@ -133,7 +133,7 @@
 @media (max-width: 768px) {
     .timeline-card {
         padding: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 2rem;
     }
     
     .timeline-title {
@@ -159,7 +159,11 @@
 @media (max-width: 576px) {
     .timeline-card {
         padding: 1rem;
+<<<<<<< HEAD
         margin-bottom: 1.5rem;
+=======
+        margin-bottom: 2.5rem;
+>>>>>>> 903c48d2cb51321fa62be8da6dc5e955eccd0530
     }
     
     .timeline-title {
