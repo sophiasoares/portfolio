@@ -123,16 +123,6 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hero-section .row {
-        align-items: flex-start !important;
-        min-height: auto !important;
-    }
-    
-    .hero-section {
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-    }
-    
     .hero-title {
         font-size: 2.5rem;
     }
@@ -154,17 +144,6 @@
 }
 
 @media (max-width: 576px) {
-    .hero-section .row {
-        align-items: flex-start !important;
-        min-height: auto !important;
-    }
-    
-    .hero-section {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-        min-height: auto;
-    }
-    
     .hero-title {
         font-size: 2rem;
     }
