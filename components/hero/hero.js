@@ -6,26 +6,7 @@ class Hero {
     }
 
     init() {
-        this.initTypingEffect();
         this.initParallax();
-    }
-
-    initTypingEffect() {
-        if (this.heroTitle) {
-            const text = this.heroTitle.textContent;
-            this.heroTitle.textContent = '';
-            
-            let i = 0;
-            const typeWriter = () => {
-                if (i < text.length) {
-                    this.heroTitle.textContent += text.charAt(i);
-                    i++;
-                    setTimeout(typeWriter, 100);
-                }
-            };
-            
-            setTimeout(typeWriter, 1000);
-        }
     }
 
     initParallax() {
