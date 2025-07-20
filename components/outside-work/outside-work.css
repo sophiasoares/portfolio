@@ -79,11 +79,11 @@
     }
     
     .hobby-title {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     
     .hobby-description {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -95,13 +95,5 @@
     
     .hobby-content {
         padding: 0.875rem;
-    }
-    
-    .hobby-title {
-        font-size: 0.95rem;
-    }
-    
-    .hobby-description {
-        font-size: 0.8rem;
     }
 } 
