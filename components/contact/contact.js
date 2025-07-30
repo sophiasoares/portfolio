@@ -60,10 +60,14 @@ class Contact {
                 // Prevent default form submission and handle it manually
                 e.preventDefault();
                 
+                // Get Formspree ID from config file
+                const formspreeId = window.CONFIG.formspreeId;
+                const formspreeUrl = `https://formspree.io/f/${formspreeId}`;
+                
                 // Submit form using fetch to avoid page redirect
                 const formData = new FormData(contactForm);
                 
-                fetch(contactForm.action, {
+                fetch(formspreeUrl, {
                     method: 'POST',
                     body: formData,
                     headers: {
