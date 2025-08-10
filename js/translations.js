@@ -386,7 +386,7 @@ const TRANSLATIONS = {
         'Career': 'Carreira',
         'Computer Science': 'Bacharelado em Ciência da Computação',
         'Bachelor in Computer Science': 'Bacharelado em Ciência da Computação com foco em desenvolvimento mobile e web.',
-        'Initiated studies but interrupted to continue abroad': 'Iniciei os estudos mas interrompi para continuá-los no exterior.',
+        'Initiated studies but interrupted to continue abroad': 'Iniciei os estudos, mas interrompi para continuá-los no exterior.',
         'Business Administration Technician': 'Técnico em Administração de Empresas',
         'Technical course together with high school': 'Curso técnico junto com o ensino médio, fornecendo habilidades práticas de negócios e administrativas.',
         'Software Developer': 'Desenvolvedora de Software',
@@ -464,7 +464,7 @@ const TRANSLATIONS = {
         'Spanish': 'Espanhol',
         
         // Contact Section
-        'Get In Touch': 'Entre em Contato',
+        'Get In Touch': 'Entrar em Contato',
         'contact-subtitle': 'Ei, me envie uma mensagem! Estou sempre aberta a novas colaborações, oportunidades e conversas interessantes',
         'Name': 'Nome',
         'Email': 'E-mail',
