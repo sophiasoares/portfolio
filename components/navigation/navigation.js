@@ -69,9 +69,9 @@ class Navigation {
         
         // Language configurations
         const languages = {
-            en: { flag: '🇬🇧', name: 'English' },
-            de: { flag: '🇩🇪', name: 'Deutsch' },
-            pt: { flag: '🇧🇷', name: 'Português' }
+            en: { flagClass: 'fi fi-gb', name: 'English' },
+            de: { flagClass: 'fi fi-de', name: 'Deutsch' },
+            pt: { flagClass: 'fi fi-br', name: 'Português' }
         };
         
         dropdownItems.forEach(item => {
@@ -84,7 +84,7 @@ class Navigation {
                 this.currentLanguage = selectedLang;
                 
                 // Update dropdown button
-                if (currentFlag) currentFlag.textContent = languages[selectedLang].flag;
+                if (currentFlag) currentFlag.className = `current-flag ${languages[selectedLang].flagClass}`;
                 if (currentLanguage) currentLanguage.textContent = languages[selectedLang].name;
                 
                 // Update active state

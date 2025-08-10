@@ -22,9 +22,12 @@
     transition: var(--transition-normal);
 }
 
-.flag-emoji {
-    font-size: 3rem;
-    line-height: 1;
+.language-icon .fi {
+    display: inline-block;
+    width: 3rem;
+    height: 2rem;
+    background-size: cover;
+    border-radius: 4px;
 }
 
 .language-card:hover .language-icon {
@@ -87,8 +90,9 @@
         padding: 1.5rem;
     }
     
-    .flag-emoji {
-        font-size: 3rem;
+    .language-icon .fi {
+        width: 3rem;
+        height: 2rem;
     }
     
     .language-name {
@@ -101,7 +105,8 @@
         padding: 1.25rem;
     }
     
-    .flag-emoji {
-        font-size: 2.5rem;
+    .language-icon .fi {
+        width: 2.5rem;
+        height: 1.6rem;
     }
 } 
