@@ -54,6 +54,13 @@ const TRANSLATIONS = {
         'Working Student': 'Working Student',
         'Intern': 'Intern',
         'Human Resources': 'Human Resources',
+        // Awards
+        'Awards': 'Awards',
+        'award-place': '3rd place',
+        'award-event': "in Hack-Nation's Global AI Hackathon",
+        'award-2': 'With over 300 teams and 900 participants',
+        'award-3': 'Development of a cross-platform AI Sports Coach app built with Flutter and ElevenLabs, enabling conversational coaching via voice and text.',
+        'sponsored-by': 'Sponsored by',
         
         // Projects Section
         'Projects': 'Featured Projects',
@@ -225,6 +232,13 @@ const TRANSLATIONS = {
         'Working Student': 'Werkstudentin',
         'Intern': 'Praktikantin',
         'Human Resources': 'Personalwesen',
+        // Awards
+        'Awards': 'Auszeichnungen',
+        'award-place': '3. Platz',
+        'award-event': 'beim globalen AI-Hackathon von Hack-Nation',
+        'award-2': 'Mit über 300 Teams und 900 Teilnehmenden',
+        'award-3': 'Entwicklung einer plattformübergreifenden KI-Sportcoach-App mit Flutter und ElevenLabs, die konversationelles Coaching per Sprache und Text ermöglicht.',
+        'sponsored-by': 'Gesponsert von',
         
         // Projects Section
         'Projects': 'Vorgestellte Projekte',
@@ -396,6 +410,13 @@ const TRANSLATIONS = {
         'Working Student': 'Trabalho Paralelo aos Estudos',
         'Intern': 'Estágio',
         'Human Resources': 'Recursos Humanos',
+        // Awards
+        'Awards': 'Prêmios',
+        'award-place': '3º lugar',
+        'award-event': 'no Global AI Hackathon da Hack-Nation',
+        'award-2': 'Com mais de 300 equipes e 900 participantes',
+        'award-3': 'Desenvolvimento de um app de Coach Esportivo com IA, multiplataforma, construído com Flutter e ElevenLabs, permitindo coaching conversacional por voz e texto.',
+        'sponsored-by': 'Patrocinado por',
         
         // Projects Section
         'Projects': 'Projetos em Destaque',
