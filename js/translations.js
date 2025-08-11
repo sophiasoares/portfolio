@@ -335,7 +335,7 @@ const TRANSLATIONS = {
         'podcast-description': 'Ich höre immer meine Lieblings-Podcasts! Ich höre meist Humor- und Popkultur-Podcasts oder Podcasts zum Deutschlernen (weil ich anscheinend denke, dass Deutsch hören beim Geschirrspülen mich magisch fließend machen wird).',
         'Nature': 'Natur',
         'nature-description': 'Ich liebe alles in der Natur, von einem einfachen Picknick bis zum Camping in den Bergen. Gib mir frische Luft, grüne Bäume und ein gutes Buch, und ich bin die glücklichste Person der Welt!',
-        'DIY': 'DIY',
+        'DIY': 'Basteln',
         'diy-description': 'Ich liebe es, kleine und bedeutungsvolle Dinge zu erschaffen, die ich normalerweise Menschen schenke, die ich liebe. Von handgemachten Karten bis zu kleinen Bastelarbeiten - es gibt etwas Befriedigendes daran, etwas Einzigartiges und Persönliches für die Menschen zu schaffen, die am wichtigsten sind.',
         
         // Months
@@ -513,7 +513,7 @@ const TRANSLATIONS = {
         'podcast-description': 'Sempre estou ouvindo meus podcasts favoritos! Geralmente ouço podcasts de humor e cultura pop, ou podcasts para aprender alemão (porque aparentemente eu acho que ouvir alemão enquanto lavo a louça vai me tornar fluente magicamente).',
         'Nature': 'Natureza',
         'nature-description': 'Adoro tudo na natureza, desde um simples piquenique até acampar nas montanhas. Me dê ar fresco, árvores verdes e um bom livro, e sou a pessoa mais feliz do mundo!',
-        'DIY': 'DIY',
+        'DIY': 'Trabalhos Manuais',
         'diy-description': 'Adoro criar pequenas coisas significativas que geralmente presenteo às pessoas que amo. De cartões feitos à mão a pequenos artesanatos, há algo satisfatório em criar algo único e pessoal para as pessoas que mais importam.',
         
         // Months
