@@ -136,6 +136,45 @@
     margin: 0 auto 2rem;
 }
 
+/* Hackathon Organizer Tag */
+.hackathon-organizer {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 1rem;
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Award Badge */
+.award-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: linear-gradient(135deg, var(--secondary-light), var(--secondary-dark));
+    color: var(--white);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.award-badge i {
+    color: #ffd700;
+    font-size: 1rem;
+}
+
+/* Adjust project title margin when there's an organizer tag */
+.project-card h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .project-image {
