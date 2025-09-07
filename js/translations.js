@@ -54,6 +54,7 @@ const TRANSLATIONS = {
         'Working Student': 'Working Student',
         'Intern': 'Intern',
         'Human Resources': 'Human Resources',
+        
         // Awards
         'Awards': 'Awards',
         'award-place': '3rd place',
@@ -92,6 +93,7 @@ const TRANSLATIONS = {
         'Backend Code': 'Backend Code',
         'Documentation': 'Documentation',
         'Poster': 'Poster',
+        
         // Technology translations
         'Authentication': 'Authentication',
         'Notifications': 'Notifications',
@@ -244,6 +246,7 @@ const TRANSLATIONS = {
         'Working Student': 'Werkstudentin',
         'Intern': 'Praktikantin',
         'Human Resources': 'Personalwesen',
+        
         // Awards
         'Awards': 'Auszeichnungen',
         'award-place': '3. Platz',
@@ -282,6 +285,7 @@ const TRANSLATIONS = {
         'Backend Code': 'Backend Code',
         'Documentation': 'Dokumentation',
         'Poster': 'Poster',
+        
         // Technology translations
         'Authentication': 'Authentifizierung',
         'Notifications': 'Benachrichtigungen',
@@ -434,6 +438,7 @@ const TRANSLATIONS = {
         'Working Student': 'Trabalho Paralelo aos Estudos',
         'Intern': 'Estágio',
         'Human Resources': 'Recursos Humanos',
+        
         // Awards
         'Awards': 'Prêmios',
         'award-place': '3º lugar',
@@ -472,6 +477,7 @@ const TRANSLATIONS = {
         'Backend Code': 'Código Backend',
         'Documentation': 'Documentação',
         'Poster': 'Pôster',
+        
         // Technology translations
         'Authentication': 'Autenticação',
         'Notifications': 'Notificações',

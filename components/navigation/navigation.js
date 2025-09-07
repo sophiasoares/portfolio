@@ -146,36 +146,20 @@ class Navigation {
     updatePageContent(language) {
         const elements = document.querySelectorAll('[data-translate]');
         
-        var updatedCount = 0;
         elements.forEach(element => {
             const translationKey = element.getAttribute('data-translate');
             if (translationKey && window.TRANSLATIONS && window.TRANSLATIONS[language]) {
                 const translation = window.TRANSLATIONS[language][translationKey];
                 if (translation) {
-                    element.textContent = translation;
-                    updatedCount++;
+                    // For input/textarea elements, update placeholder, otherwise update textContent
+                    if (element.placeholder !== undefined) {
+                        element.placeholder = translation;
+                    } else {
+                        element.textContent = translation;
+                    }
                 }
             }
         });
-        
-        // Also update form placeholders
-        const placeholders = {
-            en: { name: 'Name', email: 'Email', subject: 'Subject', message: 'Your Message' },
-            de: { name: 'Name', email: 'E-Mail', subject: 'Betreff', message: 'Ihre Nachricht' },
-            pt: { name: 'Nome', email: 'E-mail', subject: 'Assunto', message: 'Sua Mensagem' }
-        };
-        
-        if (placeholders[language]) {
-            const nameInput = document.querySelector('input[placeholder="Name"], input[placeholder="Nome"]');
-            const emailInput = document.querySelector('input[type="email"]');
-            const subjectInput = document.querySelector('input[placeholder="Subject"], input[placeholder="Betreff"], input[placeholder="Assunto"]');
-            const messageTextarea = document.querySelector('textarea');
-            
-            if (nameInput) nameInput.placeholder = placeholders[language].name;
-            if (emailInput) emailInput.placeholder = placeholders[language].email;
-            if (subjectInput) subjectInput.placeholder = placeholders[language].subject;
-            if (messageTextarea) messageTextarea.placeholder = placeholders[language].message;
-        }
     }
 
     initMobileMenu() {
