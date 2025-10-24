@@ -54,6 +54,10 @@ const TRANSLATIONS = {
         'Working Student': 'Working Student',
         'Intern': 'Intern',
         'Human Resources': 'Human Resources',
+        'Frontend and UI/UX Developer': 'Frontend and UI/UX Developer',
+        'Frontend Developer': 'Frontend Developer',
+        'Full Time': 'Full Time',
+        'Present': 'Present',
         
         // Awards
         'Awards': 'Awards',
@@ -246,6 +250,10 @@ const TRANSLATIONS = {
         'Working Student': 'Werkstudentin',
         'Intern': 'Praktikantin',
         'Human Resources': 'Personalwesen',
+        'Frontend and UI/UX Developer': 'Frontend und UI/UX Entwicklerin',
+        'Frontend Developer': 'Frontend Entwicklerin',
+        'Full Time': 'Vollzeit',
+        'Present': 'Heute',
         
         // Awards
         'Awards': 'Auszeichnungen',
@@ -438,6 +446,10 @@ const TRANSLATIONS = {
         'Working Student': 'Trabalho Paralelo aos Estudos',
         'Intern': 'Estágio',
         'Human Resources': 'Recursos Humanos',
+        'Frontend and UI/UX Developer': 'Desenvolvedora Frontend e UI/UX',
+        'Frontend Developer': 'Desenvolvedora Frontend',
+        'Full Time': 'Tempo Integral',
+        'Present': 'Presente',
         
         // Awards
         'Awards': 'Prêmios',
