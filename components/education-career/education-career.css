@@ -160,7 +160,6 @@
     max-width: 240px;
     height: auto;
     border-radius: var(--border-radius-sm);
-    box-shadow: var(--shadow-sm);
 }
 
 .awards-image--small {
@@ -171,6 +170,22 @@
     margin: 0.5rem 0;
     font-size: 0.85rem;
     color: var(--gray);
+}
+
+.sponsor-logos-combined {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+    width: 100%;
+}
+
+.sponsor-logo-part {
+    height: auto;
+    max-height: 35px;
+    max-width: 140px;
+    width: auto;
+    object-fit: contain;
 }
 
 .award-text {
@@ -189,10 +204,16 @@
 }
 
 .award-links {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
     margin-top: 1rem;
     .btn {
         font-size: 0.875rem;
         padding: 0.5rem 1rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
     }
 }
 
