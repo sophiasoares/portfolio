@@ -4,7 +4,7 @@
     padding: 2rem;
     border-radius: var(--border-radius-lg);
     box-shadow: var(--shadow-md);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     transition: var(--transition-normal);
     height: 100%;
 }
