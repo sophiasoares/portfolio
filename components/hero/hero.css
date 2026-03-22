@@ -68,6 +68,7 @@
     color: var(--white);
     border-color: var(--white);
     background: transparent;
+    box-sizing: border-box;
 }
 
 .hero-buttons .btn-outline-primary:hover {
@@ -167,5 +168,15 @@
     /* Move lightbulb icon to the left on mobile */
     .floating-card:nth-child(3) {
         left: 45% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-buttons {
+        flex-direction: column;
+    }
+    
+    .hero-buttons .btn {
+        width: 100%;
     }
 }
