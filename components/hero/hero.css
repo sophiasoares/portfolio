@@ -43,12 +43,15 @@
 }
 
 .hero-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
     animation: fadeInUp 1s ease 0.4s both;
+    gap: 0.5rem;
 }
 
 .hero-buttons .btn {
-    margin-right: 1rem;
-    margin-bottom: 1rem;
     border-radius: var(--border-radius-md);
     font-weight: 600;
     font-size: 1rem;
@@ -151,7 +154,6 @@
     .hero-buttons .btn {
         display: block;
         width: 100%;
-        margin-bottom: 0.5rem;
         justify-content: center;
         white-space: normal;
         font-size: 0.85rem;
@@ -167,4 +169,4 @@
     .floating-card:nth-child(3) {
         left: 45% !important;
     }
-} 
+}

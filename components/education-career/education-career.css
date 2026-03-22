@@ -286,4 +286,9 @@
     .awards-image--small { 
         max-width: 120px;
      }
+
+    .award-content .btn {
+        width: 100%;
+        justify-content: center;
+    }
 } 
